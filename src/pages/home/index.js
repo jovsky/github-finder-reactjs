@@ -22,7 +22,6 @@ function Home() {
       localStorage.setItem('repositoriesName', JSON.stringify(repositoriesName));
       localStorage.setItem('username', usuario);
       history.push('/repositories');
-      setErro(false);
     })
     .catch( err => setErro(true) );
   };
