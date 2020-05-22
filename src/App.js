@@ -1,9 +1,11 @@
-import React from 'react';
+import React from 'react'; // {} é um hook, useState é o estado inicial
+import Routes from './Routes';
+
+import './style.css';
 
 function App() {
-  return (
-    <label for="usuario" value="Usuario"/>
-    <input name="usuario" id="usuario" className="usuario" placeholder="Digite o usuario" />
+  return(
+      <Routes/>
   );
 }
 
