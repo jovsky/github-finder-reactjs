@@ -29,6 +29,7 @@ export default function Repositories() {
       <S.Title>Repositórios de <i>{usuario}</i></S.Title>
       {/** Esse Link é do react-router-dom que faz links entre as rotas 
        * e foi importado no styled.js*/}
+      <S.LinkHome  to="/">VOLTAR</S.LinkHome>
       <S.List>
         {/** Programção declarativa, 
         * é mais simplificada que a Hiperativa (constroi elemento, coloca o innerHtml,

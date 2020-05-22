@@ -16,7 +16,7 @@ export const List = styled.ul`
   list-style: none;
   padding: 0;
   font-family: sans-serif;
-  margin-bottom: 50px;
+  margin: 30px 0;
 `
 
 export const ListItem = styled.li`
@@ -42,11 +42,11 @@ export const LinkHome = styled(Link)`
   text-decoration: none;
   border: 3px solid white;
   box-shadow: 0 0 5px #000;
-  padding: 10px;
+  padding: 7px;
   font-family: sans-serif;
   background-color: red;
   border-radius: 0.4rem;
-  transition: transform .2s;
+  margin: 10px;
 
   &:hover {
     background-color: rgb(255,30,30);

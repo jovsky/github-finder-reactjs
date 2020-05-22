@@ -1,3 +1,11 @@
+Projeto resultado do programa Hiring Coders da Gama Academy.
+
+Descrição: é uma aplicação SPA que torna possível buscar pelo nome de um usuário do Github e obter como retorno os repositórios daquele usuário. Foi desenvolvida utilizando React JS e uma API disponibilizada pelo Github. Principais dependências: 'react-router-dom', 'axios', 'styled-components'.
+
+(O foco não é fazer uma aplicação estéticamente atraente, e sim o desenvolvimento das habilidades em React para melhorar a experiência do usuário com os recursos)
+
+-----------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
