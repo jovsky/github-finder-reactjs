@@ -1,8 +1,16 @@
-Projeto resultado do programa Hiring Coders da Gama Academy.
+# github-finder-reactjs
 
-Descrição: é uma aplicação SPA que torna possível buscar pelo nome de um usuário do Github e obter como retorno os repositórios daquele usuário. Foi desenvolvida utilizando React JS e uma API disponibilizada pelo Github. Principais dependências: 'react-router-dom', 'axios', 'styled-components'.
+Project resulting from Gama Academy's Hiring Coders program.
 
-(O foco não é fazer uma aplicação estéticamente atraente, e sim o desenvolvimento das habilidades em React para melhorar a experiência do usuário com os recursos)
+Description: This is a SPA application that allows you to search for a Github user's name and return that user's repositories. It was developed using React JS and an API provided by Github. Main dependencies: 'react-router-dom', 'axios', 'styled-components'.
+
+(The focus is not on creating an aesthetically appealing application, but rather on developing React skills to improve the user experience with the features.)
+
+## Link
+
+https://github-finder-jv.netlify.app/repositories
+
+Input a github user nickname to list his public repositories.
 
 -----------------------------------------------------------
 
@@ -41,9 +49,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and medium deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
@@ -75,4 +83,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-"# reactjs_pilot" 
+"# reactjs_pilot"
