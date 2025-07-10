@@ -1,86 +1,127 @@
-# github-finder-reactjs
+# 🔍 GitHub Finder React.js
 
-Project resulting from Gama Academy's Hiring Coders program.
+A React.js single-page application (SPA) that allows you to search for GitHub users and view their public repositories. This project was developed as part of Gama Academy's Hiring Coders program.
 
-Description: This is a SPA application that allows you to search for a Github user's name and return that user's repositories. It was developed using React JS and an API provided by Github. Main dependencies: 'react-router-dom', 'axios', 'styled-components'.
+## 🚀 Demo
 
-(The focus is not on creating an aesthetically appealing application, but rather on developing React skills to improve the user experience with the features.)
+🌐 **Live Demo:** [https://github-finder-jv.netlify.app/repositories](https://github-finder-jv.netlify.app/repositories)
 
-## Link
+## 📱 Features
 
-https://github-finder-jv.netlify.app/repositories
+- 🔍 Search for GitHub users by username
+- 📋 Display all public repositories for the searched user
+- 🎯 Direct links to each repository on GitHub
+- ⚡ Fast and responsive user interface
+- 🔄 Error handling for invalid usernames
+- 📱 Mobile-friendly design
 
-Input a github user nickname to list his public repositories.
+## 🛠️ Technologies Used
 
------------------------------------------------------------
+- **React.js** - Frontend framework
+- **React Router DOM** - Navigation and routing
+- **Axios** - HTTP client for API requests
+- **Styled Components** - CSS-in-JS styling
+- **GitHub API** - Data source for user repositories
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📦 Installation
 
-## Available Scripts
+1. Clone the repository:
 
-In the project directory, you can run:
+```bash
+git clone https://github.com/joaovitor/github-finder-reactjs.git
+cd github-finder-reactjs
+```
 
-### `npm start`
+2. Install dependencies:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm install
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+3. Start the development server:
 
-### `npm test`
+```bash
+npm start
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### `npm run build`
+## 🎯 How to Use
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Search for a User**: Enter a GitHub username in the search field on the home page
+2. **View Repositories**: Press Enter or click the "Pesquisar" button to see the user's repositories
+3. **Access Repositories**: Click on any repository name to open it directly on GitHub
+4. **Navigate Back**: Use the "VOLTAR" button to return to the search page
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+src/
+├── App.js              # Main application component
+├── Routes.js           # Application routing configuration
+├── index.js           # Application entry point
+├── style.css          # Global styles
+└── pages/
+    ├── home/
+    │   ├── index.js    # Home page component
+    │   └── styled.js   # Home page styles
+    └── repositories/
+        ├── index.js    # Repositories listing component
+        └── styled.js   # Repositories page styles
+```
 
-### `npm run eject`
+## 🔧 Available Scripts
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- `npm start` - Runs the app in development mode
+- `npm build` - Builds the app for production
+- `npm test` - Launches the test runner
+- `npm eject` - Removes the single build dependency (one-way operation)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌟 Key Features Implementation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### User Search
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and medium deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Real-time input validation
+- Integration with GitHub API using Axios
+- Error handling for non-existent users
 
-## Learn More
+### Repository Display
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Dynamic list rendering using React hooks
+- Local storage for data persistence during navigation
+- Direct links to GitHub repositories
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Navigation
 
-### Code Splitting
+- React Router DOM for seamless page transitions
+- Browser history management
+- Responsive navigation controls
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## 🎨 Styling
 
-### Analyzing the Bundle Size
+This project uses **Styled Components** for component-level styling, providing:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Scoped CSS styles
+- Dynamic styling based on props
+- Better maintainability and organization
 
-### Making a Progressive Web App
+## 📋 Future Improvements
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- [ ] Add user profile information display
+- [ ] Implement repository filtering and sorting
+- [ ] Add pagination for users with many repositories
+- [ ] Include repository statistics (stars, forks, language)
+- [ ] Dark/light theme toggle
+- [ ] Enhanced mobile responsiveness
 
-### Advanced Configuration
+## 🤝 Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+This project was created for educational purposes as part of Gama Academy's Hiring Coders program. The focus was on developing React.js skills and improving user experience with essential features.
 
-### Deployment
+## 📄 License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+This project is open source and available under the [MIT License](LICENSE).
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-"# reactjs_pilot"
+**Note**: This application focuses on functionality and React.js skill development rather than aesthetic design, emphasizing clean code practices and user experience.
